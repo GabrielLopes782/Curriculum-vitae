@@ -1,0 +1,34 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: left;
+    font: 14px "Calibri";
+}
+a{
+    font-size: clamp(1em, 1em + 3vw, 2.5em);
+    margin: 0, auto;
+    text-decoration: none;
+    color: rgb(221, 133, 133);
+    
+   
+}
+a:hover{
+    font-size: clamp(1em, 1em + 3vw, 2.5em);
+    color: hsla(199, 100%, 29%, 0.753);
+
+}
+#Curriculum{
+    font-size: clamp(1em, 1em + 3vw, 2.5em);
+    background-color: rgba(127, 255, 212, 0.74);
+    text-align: center;
+
+}
+h1,h2,h3,h4,h5, li, p{
+    font-size: clamp(1em, 1em + 3vw, 2.5em);
+}
+footer{
+    font-size: clamp(1em, 1em + 3vw, 2.5em);
+    text-align: center;
+}
+
